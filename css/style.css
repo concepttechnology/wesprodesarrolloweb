@@ -20,11 +20,19 @@ body {
 }
 
 #section_one {
+	padding: 0;
+	margin: 0;
 	display: block;
 	position: relative;
 	width: 100%;
 	height: 300px;
 	background-color: pink;
+}
+
+#section_one img {
+	width: 100%;
+	height: 100%;
+
 }
 
 #section_two {
