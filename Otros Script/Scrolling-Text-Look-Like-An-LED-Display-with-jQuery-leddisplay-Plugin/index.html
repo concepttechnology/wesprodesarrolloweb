@@ -1,0 +1,39 @@
+﻿<html>
+<head>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.leddisplay.js"></script>
+<title>jQuery leddisplay Plugin Demos</title>
+</head>
+
+<body>
+
+<br /><br />
+<canvas class="canvasld"> jQuery Plugins </canvas>
+<br /><br /><br />
+<div class="crl"> jQuery Text Plugin </div>
+<br /><br />
+<div class="crl"> jQuery Animation Plugin </div>
+<br /><br />
+<script type="text/javascript">
+	var options = {
+	
+		};
+		$('.canvasld, .crl').leddisplay($.extend(options, {pixelSize: 5}));
+	</script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
